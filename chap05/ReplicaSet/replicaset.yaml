@@ -21,7 +21,7 @@ spec:
     # (4) Podのスペック 
     spec:
       containers:
-      - image: sampleacrregistry.azurecr.io/photo-view:v1.0
+      - image: acrryan.azurecr.io/photo-view:v1.0
         name: photoview-container
         ports:
           - containerPort: 80
